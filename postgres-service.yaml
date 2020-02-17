@@ -2,7 +2,7 @@ apiVersion: v1
 kind: Service
 metadata:
     name: db
-    lables:
+    labels:
         name: db-service
         app: demo-voting-app
 spec:
